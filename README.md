@@ -6,7 +6,7 @@ python AIPlayGame.py
 e depois iniciar o jogo, ele já estará funcionando apenas com os gestos
 
 # Terminar com o código
-Para encerar o código, basta clicar nas teclas Crtl + C
+Para encerar o código, basta clicar na tecla "q" dentro da aba da câmera
 
 # Biblioteca utilizada para acessar o teclado - Pynput
 Essa biblioteca é capaz de controlar tanto mouse quanto o teclado, inicializando isso através da inicialização do Controller de dentro da bibliioteca
@@ -17,7 +17,7 @@ Como iremos apenas trabalhar com o teclado, os comendos de dentro da biblioteca 
 **.release('Tecla')**: solta a tecla
 (Antes do ponto sempre colocar o nome que deu para o Controller)
 
-## Curiosodade
+## Curiosidade
 Se quiser que digite o código sozinho basta usar **.type("Frase da sua escolha")**
 
 Como iremos usar as setas, temos que usar o Key antes (Toda vez que não for alguma tecla numerica ou alguma letra)
